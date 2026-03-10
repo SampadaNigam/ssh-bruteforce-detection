@@ -1,0 +1,15 @@
+# VirtualBox Network Topology
+
+From your document: “Adapter 1: NAT… Adapter 2: Internal Network… Name: intnet”
+
+## Ubuntu VM
+- Adapter 1: NAT (internet + NTP)
+- Adapter 2: Internal Network (intnet)
+
+## Kali VM
+- Adapter 1: NAT (optional)
+- Adapter 2: Internal Network (intnet)
+
+This creates:
+- Internet access via NAT
+- Isolated attack network via Internal Network

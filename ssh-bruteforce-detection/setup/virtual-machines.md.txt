@@ -1,0 +1,15 @@
+# Virtual Machine Setup
+
+## Ubuntu VM (Splunk server + SSH target)
+From your document: “Installed Ubuntu Server / Desktop… Installed OpenSSH server…”
+
+- Installed Ubuntu Server/Desktop
+- Created user: `user1`
+- Installed OpenSSH server:
+  sudo apt install openssh-server
+
+## Kali VM (Attacker)
+From your document: “Standard Kali installation… Hydra preinstalled…”
+
+- Standard Kali installation
+- Hydra installed (preinstalled or via apt)
